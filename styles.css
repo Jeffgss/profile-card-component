@@ -1,0 +1,77 @@
+body {
+  background: var(--Dark-cyan);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 52vw bottom 30vh, left 47vw top 50vh;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  width: 320px;
+}
+
+.card .card-top .card-top-cover {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+}
+
+.card .card-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--Dark-gray);
+}
+
+.card .card-middle .card-middle-profile {
+  margin-top: 20px;
+  margin-bottom: 12px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.card .card-middle .card-middle-profile span {
+  padding: 4px;
+  color: var(--Dark-gray);
+}
+
+.card .card-middle .card-middle-city {
+  font-size: 14px;
+  color: var(--Dark-gray);
+  margin-bottom: 20px;
+}
+
+.card .card-middle .card-middle-photo {
+  border-radius: 50%;
+  margin-top: -53px;
+  border: 5px solid white;
+}
+
+.card .card-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 35px;
+}
+
+.card .card-bottom .card-bottom-stats h1 {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.card .card-bottom .card-bottom-stats span {
+  display: flex;
+  justify-content: center;
+  font-size: 11px;
+  color: var(--Dark-gray);
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
